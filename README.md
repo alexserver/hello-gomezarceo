@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+# Hello Gomez Arceo - Fractional CTO Landing Page
 
 ```sh
 npm create astro@latest -- --template minimal

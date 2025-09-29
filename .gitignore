@@ -1,24 +1,71 @@
 # build output
 dist/
+
 # generated types
 .astro/
 
 # dependencies
 node_modules/
 
+# package manager lock files (keep package-lock.json for consistent installs)
+# yarn.lock
+# pnpm-lock.yaml
+
 # logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
 # environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env.production
 
-# macOS-specific files
-.DS_Store
+# cache directories
+.cache/
+.parcel-cache/
 
-# jetbrains setting folder
+# temporary folders
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
 .idea/
+.vscode/settings.json
+.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
