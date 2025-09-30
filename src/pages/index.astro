@@ -1,27 +1,12 @@
 ---
-import Analytics from "@vercel/analytics/astro";
+import Layout from "../layouts/Layout.astro";
 import cofounderImage from "../assets/cofounder.png";
 import copilotImage from "../assets/copilot.png";
 import heroImage from "../assets/hero.png";
 import valueProposalImage from "../assets/value-proposal.png";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Alejandro Gómez - Fractional CTO Services</title>
-    <meta
-      name="description"
-      content="Don't vibe code, let's build it together. Get your tech idea from concept to launch with expert guidance."
-    />
-  </head>
-  <body
-    class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white"
-  >
-    <div class="min-h-screen">
+<Layout>
       <!-- Header Section -->
       <div class="py-6 bg-gradient-to-b from-slate-900 to-transparent">
         <div class="max-w-4xl mx-auto px-6 text-center">
@@ -387,11 +372,4 @@ import valueProposalImage from "../assets/value-proposal.png";
           </div>
         </div>
       </footer>
-    </div>
-
-    <style>
-      @import "../styles/global.css";
-    </style>
-    <Analytics />
-  </body>
-</html>
+</Layout>
