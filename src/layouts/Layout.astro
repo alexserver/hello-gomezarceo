@@ -8,7 +8,7 @@ export interface Props {
 
 const {
   title = "Alejandro Gómez - Fractional CTO Services",
-  description = "Don't vibe code, let's build it together. Get your tech idea from concept to launch with expert guidance."
+  description = "Don't vibe code, let's build it together. Get your tech idea from concept to launch with expert guidance.",
 } = Astro.props;
 ---
 
@@ -20,8 +20,16 @@ const {
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+  <body
+    class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white"
+  >
     <div class="min-h-screen">
       <slot />
     </div>

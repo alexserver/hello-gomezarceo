@@ -1,375 +1,368 @@
 ---
-import Layout from "../layouts/Layout.astro";
 import cofounderImage from "../assets/cofounder.png";
 import copilotImage from "../assets/copilot.png";
 import heroImage from "../assets/hero.png";
 import valueProposalImage from "../assets/value-proposal.png";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-      <!-- Header Section -->
-      <div class="py-6 bg-gradient-to-b from-slate-900 to-transparent">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-          <h1
-            class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4"
-          >
-            Hey you, <span
-              class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
-              >co-founder</span
-            >
-          </h1>
-        </div>
-      </div>
-
-      <!-- Hero Section -->
-      <div class="relative overflow-hidden">
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"
+  <!-- Header Section -->
+  <div class="py-6 bg-gradient-to-b from-slate-900 to-transparent">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h1
+        class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 font-lobster"
+      >
+        Hey you, <span
+          class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent px-3"
+          >co-founder</span
         >
-        </div>
-        <div class="relative max-w-7xl mx-auto px-6 py-12">
-          <div class="text-center">
-            <h1
-              class="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent leading-tight mb-8"
-            >
-              Don't vibe code,<br />let's build it together.
-            </h1>
-            <p
-              class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 max-w-4xl mx-auto"
-            >
-              Got a big idea but no tech background? I'll help you go from "I
-              want to build this" to "It's live and ready for customers."
-            </p>
-            <div class="pt-4">
-              <a
-                href="https://calendly.com/alexserverone/30min"
-                target="_blank"
-                class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full hover:from-blue-500 hover:to-purple-500 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-              >
-                👉 Start with a Free Call
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </h1>
+    </div>
+  </div>
 
-      <!-- About Me Section -->
-      <div class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="grid lg:grid-cols-6 gap-12 items-center">
-            <!-- Text Content -->
-            <div class="lg:col-span-4 text-center lg:text-left">
-              <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-                About Me
-              </h2>
-              <p class="text-xl text-gray-300 leading-relaxed mb-8">
-                I'm Alejandro Gómez, a software engineer from Mérida, México.
-                I've been building web products for 20 years — now I want to
-                help founders like you bring your vision to life.
-              </p>
-              <div
-                class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
-              >
-                <a
-                  href="mailto:alejandro@gomezarceo.mx"
-                  class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg hover:from-slate-600 hover:to-slate-700 transition-all duration-200 shadow-lg hover:shadow-xl"
-                >
-                  alejandro@gomezarceo.mx
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/alejandrogomezarceo"
-                  class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-500 hover:to-blue-600 transition-all duration-200 shadow-lg hover:shadow-xl"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://cv.gomezarceo.mx/"
-                  class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-600 to-purple-700 rounded-lg hover:from-purple-500 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl"
-                >
-                  CV
-                </a>
-              </div>
-            </div>
-            <!-- Image -->
-            <div class="lg:col-span-2">
-              <img
-                src={heroImage.src}
-                alt="Alejandro Gómez - Fractional CTO"
-                class="w-full h-auto object-cover rounded-2xl shadow-2xl opacity-90 hover:opacity-100 transition-opacity duration-300"
-              />
-            </div>
-          </div>
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden">
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"
+    >
+    </div>
+    <div class="relative max-w-7xl mx-auto px-6 py-12">
+      <div class="text-center">
+        <h1
+          class="text-5xl md:text-7xl font-bold font-lobster bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent leading-tight mb-8"
+        >
+          Don't vibe code,<br />let's build it together.
+        </h1>
+        <p
+          class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 max-w-4xl mx-auto"
+        >
+          Got a big idea but no tech background? I'll help you go from "I want
+          to build this" to "It's live and ready for customers."
+        </p>
+        <div class="pt-4">
+          <a
+            href="https://calendly.com/alexserverone/30min"
+            target="_blank"
+            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full hover:from-blue-500 hover:to-purple-500 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
+          >
+            👉 Start with a Free Call
+          </a>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Pain Point Section -->
-      <div class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="grid lg:grid-cols-6 gap-12 items-center">
-            <!-- Image -->
-            <div class="lg:col-span-2">
-              <img
-                src={valueProposalImage.src}
-                alt="Value proposition illustration"
-                class="w-full h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
-              />
-            </div>
-            <!-- Text Content -->
-            <div class="lg:col-span-4 text-center lg:text-left">
-              <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-                You have the vision, but tech feels overwhelming.
-              </h2>
-              <p class="text-xl text-gray-300 leading-relaxed mb-6">
-                I get it. You know your business, your customers, and your
-                dream… but once words like MVP, frameworks, hosting, or
-                databases show up, it's easy to freeze.
-              </p>
-              <p class="text-xl text-gray-300 leading-relaxed">
-                That's where I come in. My job is to make sure you don't waste
-                money or months trying to figure this out alone.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tech Co-pilot Section -->
-      <div class="py-20">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-              I'm your tech co-pilot.
-            </h2>
-            <p class="text-xl text-gray-300 mb-12">
-              Think of me as your part-time CTO — without the big salary.
-            </p>
-            <!-- Co-pilot Image -->
-            <div class="mb-16">
-              <img
-                src={copilotImage.src}
-                alt="Tech co-pilot collaboration"
-                class="w-full max-w-2xl mx-auto h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
-              />
-            </div>
-          </div>
-
-          <div class="grid md:grid-cols-2 gap-8">
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
-            >
-              <div class="text-3xl mb-4">🎯</div>
-              <h3 class="text-xl font-semibold mb-4">Shape Your Idea</h3>
-              <p class="text-gray-300">
-                I'll help you shape your idea into something we can actually
-                build.
-              </p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
-            >
-              <div class="text-3xl mb-4">🚀</div>
-              <h3 class="text-xl font-semibold mb-4">Build Your MVP</h3>
-              <p class="text-gray-300">
-                I'll create the first version (your MVP) so you can test it with
-                real customers.
-              </p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
-            >
-              <div class="text-3xl mb-4">⚡</div>
-              <h3 class="text-xl font-semibold mb-4">Right Tools</h3>
-              <p class="text-gray-300">
-                I'll guide you on the right tools so you don't overpay or
-                overcomplicate.
-              </p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
-            >
-              <div class="text-3xl mb-4">📈</div>
-              <h3 class="text-xl font-semibold mb-4">Scale Together</h3>
-              <p class="text-gray-300">
-                And when you're ready to grow, we'll scale it together.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Credentials Section -->
-      <div class="py-20 bg-slate-800/50">
-        <div class="max-w-4xl mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-              I've been building tech for 20 years.
-            </h2>
-          </div>
-
-          <div class="space-y-6 text-lg text-gray-300">
-            <p class="leading-relaxed">
-              I've worked with startups, scale-ups, and even Fortune 500
-              companies. Over the years, I've:
-            </p>
-
-            <div class="grid md:grid-cols-3 gap-6 my-12">
-              <div
-                class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
-              >
-                <div class="text-2xl mb-3">💼</div>
-                <p class="text-gray-300">
-                  Built booking platforms, advertising dashboards, and SaaS
-                  products.
-                </p>
-              </div>
-              <div
-                class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
-              >
-                <div class="text-2xl mb-3">💡</div>
-                <p class="text-gray-300">
-                  Helped founders avoid expensive mistakes with the wrong tech.
-                </p>
-              </div>
-              <div
-                class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
-              >
-                <div class="text-2xl mb-3">⚙️</div>
-                <p class="text-gray-300">
-                  Worked with React, Node.js, TypeScript, and Elixir to create
-                  modern, reliable apps.
-                </p>
-              </div>
-            </div>
-
-            <p class="text-center text-xl font-semibold text-white">
-              Bottom line? I know what it takes to go from idea → launch.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Process Section -->
-      <div class="py-20">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-              Simple Process
-            </h2>
-          </div>
-
-          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
-            >
-              <div
-                class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
-              >
-                1
-              </div>
-              <h3 class="text-xl font-semibold mb-4 text-white">Let's Talk</h3>
-              <p class="text-gray-300">
-                You share your idea in a free 30-min call.
-              </p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
-            >
-              <div
-                class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
-              >
-                2
-              </div>
-              <h3 class="text-xl font-semibold mb-4 text-white">
-                Your Roadmap
-              </h3>
-              <p class="text-gray-300">
-                I'll show you the simplest way to build it.
-              </p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
-            >
-              <div
-                class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
-              >
-                3
-              </div>
-              <h3 class="text-xl font-semibold mb-4 text-white">
-                Build Together
-              </h3>
-              <p class="text-gray-300">I design and build your MVP.</p>
-            </div>
-            <div
-              class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
-            >
-              <div
-                class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
-              >
-                4
-              </div>
-              <h3 class="text-xl font-semibold mb-4 text-white">Grow</h3>
-              <p class="text-gray-300">
-                You get real users, and we improve it step by step.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Reassurance Section -->
-      <div class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="grid lg:grid-cols-5 gap-12 items-center">
-            <!-- Image -->
-            <div class="lg:col-span-2">
-              <img
-                src={cofounderImage.src}
-                alt="Founder collaboration"
-                class="w-full h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
-              />
-            </div>
-            <!-- Text Content -->
-            <div class="lg:col-span-3 text-center lg:text-left">
-              <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-                You don't need to be "techie." You just need your idea.
-              </h2>
-              <p class="text-xl text-gray-300 leading-relaxed">
-                I'll translate the tech into plain English, so you always know
-                what's happening. You'll never feel left out of your own
-                product.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Final CTA Section -->
-      <div class="py-20 bg-gradient-to-r from-blue-600/20 to-purple-600/20">
-        <div class="max-w-4xl mx-auto px-6 text-center">
+  <!-- About Me Section -->
+  <div class="py-20 bg-slate-800/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-6 gap-12 items-center">
+        <!-- Text Content -->
+        <div class="lg:col-span-4 text-center lg:text-left">
           <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
-            Your idea is worth building — let's make it real.
+            About Me
           </h2>
-          <div class="pt-8">
+          <p class="text-xl text-gray-300 leading-relaxed mb-8">
+            I'm Alejandro Gómez, a software engineer from Mérida, México. I've
+            been building web products for 20 years — now I want to help
+            founders like you bring your vision to life.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+          >
             <a
-              href="https://calendly.com/alexserverone/30min"
-              target="_blank"
-              class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full hover:from-blue-500 hover:to-purple-500 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
+              href="mailto:alejandro@gomezarceo.mx"
+              class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg hover:from-slate-600 hover:to-slate-700 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              👉 Book Your Free Call Now
+              alejandro@gomezarceo.mx
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alejandrogomezarceo"
+              class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-500 hover:to-blue-600 transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://cv.gomezarceo.mx/"
+              class="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-600 to-purple-700 rounded-lg hover:from-purple-500 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              CV
             </a>
           </div>
         </div>
+        <!-- Image -->
+        <div class="lg:col-span-2">
+          <img
+            src={heroImage.src}
+            alt="Alejandro Gómez - Fractional CTO"
+            class="w-full h-auto object-cover rounded-2xl shadow-2xl opacity-90 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pain Point Section -->
+  <div class="py-20 bg-slate-800/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-6 gap-12 items-center">
+        <!-- Image -->
+        <div class="lg:col-span-2">
+          <img
+            src={valueProposalImage.src}
+            alt="Value proposition illustration"
+            class="w-full h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+        <!-- Text Content -->
+        <div class="lg:col-span-4 text-center lg:text-left">
+          <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+            You have the vision, but tech feels overwhelming.
+          </h2>
+          <p class="text-xl text-gray-300 leading-relaxed mb-6">
+            I get it. You know your business, your customers, and your dream…
+            but once words like MVP, frameworks, hosting, or databases show up,
+            it's easy to freeze.
+          </p>
+          <p class="text-xl text-gray-300 leading-relaxed">
+            That's where I come in. My job is to make sure you don't waste money
+            or months trying to figure this out alone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech Co-pilot Section -->
+  <div class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+          I'm your tech co-pilot.
+        </h2>
+        <p class="text-xl text-gray-300 mb-12">
+          Think of me as your part-time CTO — without the big salary.
+        </p>
+        <!-- Co-pilot Image -->
+        <div class="mb-16">
+          <img
+            src={copilotImage.src}
+            alt="Tech co-pilot collaboration"
+            class="w-full max-w-2xl mx-auto h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
       </div>
 
-      <!-- Footer -->
-      <footer class="py-16 bg-slate-900 border-t border-slate-700">
-        <div class="max-w-4xl mx-auto px-6">
-          <div class="text-center">
-            <p class="text-lg text-gray-400">
-              © 2025 Alejandro Gómez. Ready to build something amazing
-              together?
+      <div class="grid md:grid-cols-2 gap-8">
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
+        >
+          <div class="text-3xl mb-4">🎯</div>
+          <h3 class="text-xl font-semibold mb-4">Shape Your Idea</h3>
+          <p class="text-gray-300">
+            I'll help you shape your idea into something we can actually build.
+          </p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
+        >
+          <div class="text-3xl mb-4">🚀</div>
+          <h3 class="text-xl font-semibold mb-4">Build Your MVP</h3>
+          <p class="text-gray-300">
+            I'll create the first version (your MVP) so you can test it with
+            real customers.
+          </p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
+        >
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold mb-4">Right Tools</h3>
+          <p class="text-gray-300">
+            I'll guide you on the right tools so you don't overpay or
+            overcomplicate.
+          </p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700"
+        >
+          <div class="text-3xl mb-4">📈</div>
+          <h3 class="text-xl font-semibold mb-4">Scale Together</h3>
+          <p class="text-gray-300">
+            And when you're ready to grow, we'll scale it together.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Credentials Section -->
+  <div class="py-20 bg-slate-800/50">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+          I've been building tech for 20 years.
+        </h2>
+      </div>
+
+      <div class="space-y-6 text-lg text-gray-300">
+        <p class="leading-relaxed">
+          I've worked with startups, scale-ups, and even Fortune 500 companies.
+          Over the years, I've:
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6 my-12">
+          <div
+            class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
+          >
+            <div class="text-2xl mb-3">💼</div>
+            <p class="text-gray-300">
+              Built booking platforms, advertising dashboards, and SaaS
+              products.
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
+          >
+            <div class="text-2xl mb-3">💡</div>
+            <p class="text-gray-300">
+              Helped founders avoid expensive mistakes with the wrong tech.
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-br from-blue-900/30 to-purple-900/30 p-6 rounded-xl border border-blue-500/20"
+          >
+            <div class="text-2xl mb-3">⚙️</div>
+            <p class="text-gray-300">
+              Worked with React, Node.js, TypeScript, and Elixir to create
+              modern, reliable apps.
             </p>
           </div>
         </div>
-      </footer>
+
+        <p class="text-center text-xl font-semibold text-white">
+          Bottom line? I know what it takes to go from idea → launch.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Process Section -->
+  <div class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+          Simple Process
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
+        >
+          <div
+            class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
+          >
+            1
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-white">Let's Talk</h3>
+          <p class="text-gray-300">
+            You share your idea in a free 30-min call.
+          </p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
+        >
+          <div
+            class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
+          >
+            2
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-white">Your Roadmap</h3>
+          <p class="text-gray-300">
+            I'll show you the simplest way to build it.
+          </p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
+        >
+          <div
+            class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
+          >
+            3
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-white">Build Together</h3>
+          <p class="text-gray-300">I design and build your MVP.</p>
+        </div>
+        <div
+          class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 text-center group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300"
+        >
+          <div
+            class="bg-gradient-to-br from-blue-600 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:scale-110 transition-transform"
+          >
+            4
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-white">Grow</h3>
+          <p class="text-gray-300">
+            You get real users, and we improve it step by step.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reassurance Section -->
+  <div class="py-20 bg-slate-800/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-5 gap-12 items-center">
+        <!-- Image -->
+        <div class="lg:col-span-2">
+          <img
+            src={cofounderImage.src}
+            alt="Founder collaboration"
+            class="w-full h-auto rounded-2xl shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+        <!-- Text Content -->
+        <div class="lg:col-span-3 text-center lg:text-left">
+          <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+            You don't need to be "techie." You just need your idea.
+          </h2>
+          <p class="text-xl text-gray-300 leading-relaxed">
+            I'll translate the tech into plain English, so you always know
+            what's happening. You'll never feel left out of your own product.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Final CTA Section -->
+  <div class="py-20 bg-gradient-to-r from-blue-600/20 to-purple-600/20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+        Your idea is worth building — let's make it real.
+      </h2>
+      <div class="pt-8">
+        <a
+          href="https://calendly.com/alexserverone/30min"
+          target="_blank"
+          class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full hover:from-blue-500 hover:to-purple-500 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
+        >
+          👉 Book Your Free Call Now
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-16 bg-slate-900 border-t border-slate-700">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="text-center">
+        <p class="text-lg text-gray-400">
+          © 2025 Alejandro Gómez. Ready to build something amazing together?
+        </p>
+      </div>
+    </div>
+  </footer>
 </Layout>
